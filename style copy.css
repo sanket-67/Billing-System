@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Apple';
+    src: url('https://fonts.gstatic.com/s/mukta/v12/iJWKBXyXfDDVXbEOi1maH2kVVx0.woff2') format('woff2'),
+         url('https://fonts.gstatic.com/s/mukta/v12/iJWKBXyXfDDVXbEslWmaH2kVVx0.woff') format('woff');
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Apple,Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.address, .datetime, .service-type {
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+.divider {
+    border: 1px dashed #ccc;
+    margin: 20px 0 30px; 
+}
+
+.details, .item-header, .bill, .footer {
+    margin-bottom: 30px; 
+}
+
+.table-info, .bill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.item-header .item {
+    justify-self: start;
+}
+
+.item-header div {
+    text-align: center;
+}
+
+.bill {
+    font-weight: bold;
+}
+
+.subtotal, .grand-total {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    color: #777;
+    margin-top: 30px; 
+}
+
+#name,#qty,#rate,#amount{
+    margin-bottom: 20px; 
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+.item {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 11px; 
+  
+
+}
+
+.item-name, .quantity, .rate, .total {
+    flex: 1; 
+    text-align: center; 
+}
+
+.item-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center; 
+    margin-left: 29px;
+}
+
+.item-header .item {
+    justify-self: start;
+}
+
+.item-header div {
+    text-align: center;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-name, .quantity, .rate, .total {
+    text-align: center;
+}
+
+.total-quantity {
+    margin-bottom: 10px;
+}
+
+#total-quantity {
+    font-weight: bold;
+}
+
+.bill div {
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 29px;
+}
+
+.footer {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+
